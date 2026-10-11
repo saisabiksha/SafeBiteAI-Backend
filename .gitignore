@@ -1,0 +1,25 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite databases
+data/*.db
+*.sqlite3
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Additional local database files
+*.db
+*.sqlite
+
+# Local secrets and credentials
+.env.local
